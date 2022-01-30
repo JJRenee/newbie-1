@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  /* background-color: rgb(4, 15, 44); */
+}
+body {
+  background-color: darkcyan;
+}
+
+main {
+  padding: 20px;
+  width: 350px;
+  background-color: darkblue;
+  align-items: center;
+  margin: 120px auto;
+}
+h4 {
+  color: bisque;
+}
+img {
+  max-width: 100%;
+}
+
+.contain h3 {
+  color: rgb(54, 171, 207);
+}
+
+/* figure {
+  padding: auto;
+  align-items: center;
+}
+
+.equili  {
+  padding: 30px;
+  text-align: start;
+} */
+
+.equili {
+  color: white;
+}
+span {
+  color: white;
+}
+
+.equili p {
+  padding: 20px 0px;
+}
+
+.contain {
+  /* overflow: auto;
+  display: inline; */
+  /* float: left; */
+  margin-right: 100px;
+  display: flex;
+  /* paddin: 50px; */
+}
+
+.days {
+  display: flex;
+  /* margin-left: 40px; */
+}
+
+.price {
+  display: flex;
+  margin: 20px 0;
+}
+.foot {
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  width: 30px;
+  color: white;
+  border: 2px solid white;
+  border-radius: 50%;
+  margin-right: 20px;
+}
